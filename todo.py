@@ -33,7 +33,7 @@ def main():
             todo["text"] = text
         todos.append(todo)
         save_todos(todos)
-        print(f"✅ Added: {text}")
+        print(f"✅ Task added JD: {text}")
 
     elif command == "list":
         for t in todos:
